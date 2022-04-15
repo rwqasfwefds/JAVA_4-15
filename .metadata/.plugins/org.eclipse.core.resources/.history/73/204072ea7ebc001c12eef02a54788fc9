@@ -1,0 +1,11 @@
+package ex;
+
+public class Specker implements Speakable {
+
+	@Override
+	public void sayYes() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

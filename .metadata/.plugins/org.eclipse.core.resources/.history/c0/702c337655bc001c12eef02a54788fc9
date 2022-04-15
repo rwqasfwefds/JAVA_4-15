@@ -1,0 +1,14 @@
+package ex2;
+
+public class Staff extends AcademyPerson {
+
+	public Staff() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Staff(int num, String name) {
+		super(num, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

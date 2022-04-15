@@ -1,0 +1,9 @@
+package excercise;
+
+public class PhoneInterface {
+//	전역 상수
+	final int TIMEOUT = 10000;
+	
+	void sendCall();
+	void receiverCall();
+}

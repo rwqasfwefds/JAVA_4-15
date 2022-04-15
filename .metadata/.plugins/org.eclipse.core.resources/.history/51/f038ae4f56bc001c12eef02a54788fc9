@@ -1,0 +1,16 @@
+package ex2;
+
+public class Gangsa extends AcademyPerson {
+	
+	private String subject; // °­ÀÇ¸í
+
+	public Gangsa() {
+		
+	}
+
+	public Gangsa(int num, String name, String subject) {
+		super(num, name);
+		
+	}
+
+}

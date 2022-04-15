@@ -1,0 +1,15 @@
+package excercise2;
+
+public class Show {
+
+	public static void main(String[] args) {
+		
+//		°´Ã¼ »ý¼º
+		Rayzer rayzer = new Rayzer();
+		Color color = new Color();
+		
+		rayzer.print();
+		color.print();
+	}
+
+}

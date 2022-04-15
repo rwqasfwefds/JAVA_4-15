@@ -1,0 +1,15 @@
+package ex2;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal dog = new Dog();
+		Animal cat = new Cat();
+
+		dog.playWithOwner();
+		System.out.println("-----------------");
+		cat.playWithOwner();
+	}
+
+}

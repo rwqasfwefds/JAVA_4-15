@@ -1,0 +1,14 @@
+package excercise3;
+
+public class Show {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connect connect = new Connect();
+		
+		connect.connect();
+		connect.disconnect();
+		connect.work();
+	}
+
+}

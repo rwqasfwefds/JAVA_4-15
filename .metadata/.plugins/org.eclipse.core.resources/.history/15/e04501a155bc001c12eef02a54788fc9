@@ -1,0 +1,13 @@
+package ex2;
+
+public class Staff extends AcademyPerson {
+
+	public Staff() {
+		
+	}
+
+	public Staff(int num, String name) {
+		super(num, name);
+	}
+
+}

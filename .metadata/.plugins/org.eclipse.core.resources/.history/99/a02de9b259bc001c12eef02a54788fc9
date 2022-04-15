@@ -1,0 +1,16 @@
+package ex2;
+
+public class AcademyPersonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AcademyPerson[] personArray = new AcademyPerson[5];
+		
+		personArray[0] = new Student(1000, "È«±æµ¿", "Java¹Ý");
+		personArray[1] = new Gangsa(2000, "ÀÓ²©Á¤", "Java¹Ý");
+		personArray[2] = new Student(1000, "È«±æµ¿", "Java¹Ý");
+		personArray[3] = new Student(1000, "È«±æµ¿", "Java¹Ý");
+		personArray[4] = new Student(1000, "È«±æµ¿", "Java¹Ý");
+	}
+
+}

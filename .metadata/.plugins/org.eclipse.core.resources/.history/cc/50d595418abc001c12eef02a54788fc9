@@ -1,0 +1,5 @@
+package excercise3;
+
+public interface DBAccess {
+	void connect(); // 출력 : "DB 연결" 
+}

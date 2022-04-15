@@ -1,0 +1,13 @@
+package ex;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		System.out.println(Speakable.zeroPoint);
+		System.out.println(Speakable.PI);
+		
+		Specker reporter = new Specker();
+		reporter.sayYes();
+	}
+
+}

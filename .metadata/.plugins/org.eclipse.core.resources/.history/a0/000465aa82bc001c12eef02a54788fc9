@@ -1,0 +1,29 @@
+package excercise;
+
+public class Phone implements MP3Interface, PhoneInterface {
+
+	@Override
+	public void sendCall() {
+		// TODO Auto-generated method stub
+		System.out.println("µû¸£¸ª");
+	}
+
+	@Override
+	public void receiverCall() {
+		// TODO Auto-generated method stub
+		System.out.println("ÀüÈ­ ¿È");
+	}
+
+	@Override
+	public void sendSMS() {
+		// TODO Auto-generated method stub
+		System.out.println("¹®ÀÚ °©´Ï´ÙÀ×!");
+	}
+
+	@Override
+	public void receiveSMS() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

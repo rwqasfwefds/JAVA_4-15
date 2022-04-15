@@ -1,0 +1,19 @@
+package ex3;
+
+public class UpcastingTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		첫 번째 방법
+//		Person p;
+//		Student s = new Student("이재문");
+		
+		Person p = new Student("이재문");
+		
+		p = s; // 업캐스팅(위로 형변환) 다형성
+		
+		System.out.println(p.name);
+	}
+
+}

@@ -1,0 +1,8 @@
+package ex2;
+
+public abstract class Animal {
+//	추상 메소드
+//	1번 클래스 : 출력 = "야옹~ 야옹~"
+//	2번 클래스 : 출력 = "댕!~ 댕!"
+	abstract void play();
+}

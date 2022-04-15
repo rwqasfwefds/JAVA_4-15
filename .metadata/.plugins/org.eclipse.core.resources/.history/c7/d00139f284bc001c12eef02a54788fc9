@@ -1,0 +1,15 @@
+package excercise;
+
+public class Show {
+
+	public static void main(String[] args) {
+//		°´Ã¼ »ý¼º
+		Phone phone = new Phone();
+		
+		phone.sendCall();
+		phone.receiverCall();
+		phone.sendSMS();
+		phone.receiveSMS();
+	}
+
+}

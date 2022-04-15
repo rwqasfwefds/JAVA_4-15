@@ -1,0 +1,17 @@
+package ex2;
+
+public class AcademyPerson {
+	private int num; // 번호
+	private String name; // 이름
+	
+	public AcademyPerson() {
+		
+	}
+	
+	public AcademyPerson(int num, String name) {
+		this.num = num;
+		this.name = name;
+	}
+	
+	
+}

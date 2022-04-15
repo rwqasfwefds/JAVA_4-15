@@ -1,0 +1,14 @@
+package ex2;
+
+public class Gangsa extends AcademyPerson {
+
+	public Gangsa() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Gangsa(int num, String name) {
+		super(num, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

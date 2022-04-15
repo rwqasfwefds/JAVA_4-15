@@ -1,0 +1,14 @@
+package ex2;
+
+public class Gangsa extends AcademyPerson {
+
+	public Gangsa() {
+		
+	}
+
+	public Gangsa(int num, String name) {
+		super(num, name);
+		
+	}
+
+}

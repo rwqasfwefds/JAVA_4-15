@@ -1,0 +1,10 @@
+package ex;
+
+public interface Speakable {
+//	»ó¼ö
+	double PI = 3.14159;
+	final double zeroPoint = -275.15;
+	
+//	ºó ±øÅë ¸Þ¼Òµå
+	void sayYes();
+}

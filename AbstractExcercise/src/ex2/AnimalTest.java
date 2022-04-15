@@ -1,0 +1,19 @@
+package ex2;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		
+		Animal dog = new Dog();
+		Animal cat = new Cat();
+
+//		∞≥ªı≥¢ ≈€«√∏¥ ∏ﬁº“µÂ »£√‚
+		dog.playWithOwner();
+		
+		System.out.println("-----------------");
+		
+//		≈–πŸƒ˚ ≈€«√∏¥ ∏ﬁº“µÂ »£√‚
+		cat.playWithOwner();
+	}
+
+}

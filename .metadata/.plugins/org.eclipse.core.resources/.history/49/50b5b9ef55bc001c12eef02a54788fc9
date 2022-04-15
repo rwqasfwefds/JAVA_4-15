@@ -1,0 +1,21 @@
+package ex2;
+
+public class Staff extends AcademyPerson {
+	
+	private String department; // ºÎ¼­
+
+	public Staff() {
+		
+	}
+
+	public Staff(int num, String name, String department) {
+		super(num, name);
+		this.department = department;
+	}
+
+	@Override
+	public void display() {
+		
+	}
+
+}

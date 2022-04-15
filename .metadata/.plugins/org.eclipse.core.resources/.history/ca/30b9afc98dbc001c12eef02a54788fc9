@@ -1,0 +1,12 @@
+package ex2;
+
+public abstract class Animal {
+//	Ãß»ó ¸Þ¼Òµå
+//	1¹ø Å¬·¡½º : Ãâ·Â = "¾ß¿Ë~ ¾ß¿Ë~"
+//	2¹ø Å¬·¡½º : Ãâ·Â = "´ó!~ ´ó!"
+	abstract void play();
+	
+	void runSomething() {
+		System.out.println("²¿¸® »ì¶û »ì¶û~");
+	}
+}
